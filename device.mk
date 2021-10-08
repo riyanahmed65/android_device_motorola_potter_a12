@@ -278,6 +278,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(DEVICE_PATH)/configs/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
+	
+# netmgrd
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor	
 
 # OMX
 PRODUCT_PACKAGES += \
