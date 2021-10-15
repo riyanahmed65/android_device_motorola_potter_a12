@@ -19,7 +19,11 @@ cc_library_static {
     recovery_available: true,
     srcs: ["init_potter.cpp"],
     include_dirs: [
+<<<<<<< HEAD
         "system/core/include",
+=======
+        "system/libbase/include",
+>>>>>>> 63b971a (update header location)
         "system/core/init"
     ],
     shared_libs: [
