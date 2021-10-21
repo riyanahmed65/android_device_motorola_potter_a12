@@ -271,11 +271,7 @@
     <hal format="hidl">
         <name>com.fingerprints.extension</name>
         <transport>hwbinder</transport>
-<<<<<<< HEAD:manifest.xml
         <version>1.0</version>
-=======
-        <version>1.9</version>
->>>>>>> d748aca (Add missing entries):configs/manifest.xml
         <interface>
             <name>IFingerprintNavigation</name>
             <instance>default</instance>
