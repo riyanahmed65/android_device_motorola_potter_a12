@@ -46,8 +46,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessingdescriptors \
     libqcompostprocbundle \
     libvolumelistener \
-    tinymix \
-    libshims_camera
+    tinymix
+
 
 PRODUCT_COPY_FILES +=  \
     $(DEVICE_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -364,6 +364,17 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libprotobuf-cpp-full
 
+# Gatekeeper HAL
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0.vendor
+	
+# Keymaster HAL
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.keymaster@3.0-service \
+    android.hardware.keymaster@3.0.vendor	
 
 # Qualcomm
 PRODUCT_COPY_FILES += \
@@ -416,7 +427,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libcutils_shim \
     libmemset_shim \
-    libqsap_shim
+    libqsap_shim \
+	libshims_camera
 
 # USB HAL
 PRODUCT_PACKAGES += \
