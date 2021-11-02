@@ -38,3 +38,5 @@ persist.vendor.camera.     u:object_r:camera_prop:s0
 persist.vendor.dolby.loglevel   u:object_r:vendor_dolby_loglevel_prop:s0
 
 wifi.active.interface                   u:object_r:wifi_hal_prop:s0
+
+ctl.vendor.cdsprpcd         u:object_r:vendor_cdsprpcd_prop:s0
