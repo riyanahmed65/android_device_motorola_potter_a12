@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/motorola/potter/device.mk)
 
 # Inherit some common arrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier
 PRODUCT_DEVICE := potter
