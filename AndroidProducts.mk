@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The arrowOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_potter.mk
+    $(LOCAL_DIR)/arrow_potter.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_potter-userdebug \
-    lineage_potter-user \
-    lineage_potter-eng
+    arrow_potter-userdebug \
+    arrow_potter-user \
+    arrow_potter-eng
