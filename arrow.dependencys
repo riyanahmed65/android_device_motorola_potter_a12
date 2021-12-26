@@ -1,0 +1,6 @@
+error surfaceflinger depends on undefined module
+create the path by your self
+https://github.com/Fluid-Onclite/hardware_qcom-caf_msm8996_display
+just clone to hardware/qcom-caf/msm8996/display
+
+
